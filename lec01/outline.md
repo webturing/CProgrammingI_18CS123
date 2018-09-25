@@ -23,9 +23,9 @@
 	#include<stdio.h>
 	int main()
 	{
-	    printf("helloworld");
-        printf("%d",123+456);
-        return 0;
+	    printf("helloworld\n");
+            printf("%d\n",123+456);
+            return 0;
 	}
 ```
 
@@ -38,7 +38,7 @@
 	   int a=123;
 	   int b=456;
 	   printf("%d",a+b);
-       return 0;
+           return 0;
 	}
 ```
 
@@ -62,11 +62,17 @@
 
 - 整型 char/byte->short->int->long long
 - 浮点型 float->double
-
+### Constant
+- 'a' 1 1LL 
+- 0.5f 0.5  +0.21e+8
+### Variable declare
+- ``` int x;```
+- ``` int x,y,z;```
+- ``` int x,y=3;```
 ### Arithmetic operator
 
 - 加 ```+```
-- 减  ```+```
+- 减  ```-```
 - 乘 ```*```
 - 除  ```/```    
 - 模 ```%```
