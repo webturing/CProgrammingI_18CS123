@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 int main() {
-	printf("%d\n",13+4);
-	printf("%d\n",13-4);
-	printf("%d\n",13*4);
-	printf("%d\n",13/4);
-	printf("%d\n",13%4);
-	return 0;
+  cout << 13 + 4 << endl;
+  cout << 13 - 4 << endl;
+  cout << 13 * 4 << endl;
+  cout << 13 / 4 << endl;
+  cout << 13 % 4 << endl;
+  return 0;
 }

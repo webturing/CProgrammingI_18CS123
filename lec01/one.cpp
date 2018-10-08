@@ -1,7 +1,7 @@
-#include<stdio.h>
-int main()
-{
-	printf("hello world\n");
-	printf("%d\n",123+456);
-	return 0;
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+  cout << "hello world\n";
+  cout << 123 + 456 << endl;
+  return 0;
 }
