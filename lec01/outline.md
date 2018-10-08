@@ -17,42 +17,39 @@
 - 菜鸟网站： http://www.runoob.com/cprogramming/c-tutorial.html
 - API手册 ：http://www.cplusplus.com/reference/
 
-## First of C //Hello World
+## First of C++ //Hello World
 
 ```C++
-	#include<stdio.h>
-	int main()
-	{
-	    printf("helloworld\n");
-            printf("%d\n",123+456);
-            return 0;
+	#include <bits/stdc++.h>
+	using namespace std;
+	int main() {
+  		cout << "hello world\n";
+  		return 0;
 	}
 ```
-
 ## Add1 //Without Input
 
 ```C++
-	#include<stdio.h>
-	int main()
-	{
-	   int a=123;
-	   int b=456;
-	   printf("%d",a+b);
-           return 0;
+	#include <bits/stdc++.h>
+	using namespace std;
+	int main() {
+  		int a=123;
+  		int b=456;
+  		cout<<a+b<<endl;
+  		return 0;
 	}
 ```
 
 ## Add2 //With Input
 
 ```C++
-	#include<stdio.h>
-	int main()
-	{
-	   int a,b;
-	   scanf("%d",&a);
-	   scanf("%d",&b);
-	   printf("%d",a+b);
-       return 0;
+	#include <bits/stdc++.h>
+	using namespace std;
+	int main() {
+  		int a,b;
+  		cin>>a>>b;
+  		cout<<a+b<<endl;
+  		return 0;
 	}
 ```
 
@@ -79,7 +76,7 @@
 
 ## Excise ：
 
-- 输出helloworld//helloworld.c
-- 计算A+B//add.c
-- 计算100年的毫秒值//life.c
+- 输出helloworld//helloworld.cpp
+- 计算A+B//add.cpp
+- 计算100年的毫秒值//life.cpp
 - [AOJ Conteset 1190](https://oj.ahstu.cc/JudgeOnline/contest.php?cid=1190)
