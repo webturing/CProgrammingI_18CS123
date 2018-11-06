@@ -1,18 +1,18 @@
 #include<bits/stdc++.h>
-
 using namespace std;
 
 int main() {
-    int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9,};
-    cout << sizeof(int) << endl;
-    cout << sizeof(long) << endl;
-    cout << sizeof(long long) << endl;
-    //1byte=8bit
-    int x;
-    double y;
-    cout << sizeof(x) << endl;//4
-    cout << sizeof(y) << endl;//8
-    cout << sizeof(float) << endl;//4
-    cout << sizeof(a) << endl;
-    return 0;
+	cout << sizeof(int) << endl;//int 1 byte�ֽ�=8 bit���أ�λ)
+	cout << sizeof(long) << endl;//4 long GCC ���� deprecated
+	cout << sizeof(long long) << endl;//8
+	cout << sizeof(char) << endl;//1
+	int x;
+	long long y;
+	float z;
+	double t;
+	cout << sizeof(x) << endl;//4 x is int
+	cout << sizeof(y) << endl;//8 y is long long
+	cout << sizeof(z) << endl;//4 z is float ������ .6λ
+	cout << sizeof(t) << endl;//8 t is double ˫���� 12
+	return 0;
 }
