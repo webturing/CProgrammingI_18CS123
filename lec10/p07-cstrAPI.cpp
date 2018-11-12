@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-//strlen(s) ��һ��'\0'��λ��
+//strlen(s) length of s
 //strcpy(a,b) a=b
 //strcat(a,b) a+=b
 //strcmp(a,b)  a<b -1 a==b 0 a>b 1

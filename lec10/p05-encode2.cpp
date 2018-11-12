@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    ofstream cout("code.txt");
+
     char a[100] = "I LOVE YOU";
     cout << strlen(a) << endl;
     int k = 3;
