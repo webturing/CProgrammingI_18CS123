@@ -1,16 +1,20 @@
 #include<iostream>
 #include<string>
+
 using namespace std;
-///操作类 没有返回值 
-void hello(){
-	cout<<"hello world"<<endl;
+
+///鎿嶄綔绫诲嚱鏁帮細娌℃湁杩斿洖鍊紇oid
+void hello() {
+    cout << "hello world" << endl;
 }
-void hello(string s){
-	cout<<"hello "<<s<<endl;
+
+void hello(string s) {
+    cout << "hello " << s << endl;
 }
+
 int main() {
-	hello();
-	hello("zj"); 
-	hello("xm"); 
-	return 0;
+    hello();
+    hello("zj");
+    hello("xm");
+    return 0;
 }
