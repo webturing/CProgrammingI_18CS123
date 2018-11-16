@@ -25,7 +25,7 @@ bool check(int n) {
 int main() {
 
     for (int n = 6; n <= 20000000; n += 2) {    //n=p+(n-p)
-        if (check(n) == false) {
+        if (!check(n)) {
             cout << "Congratulations!" << endl;
         }
     }
