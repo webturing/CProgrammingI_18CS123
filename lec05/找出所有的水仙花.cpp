@@ -1,15 +1,16 @@
 #include<bits/stdc++.h>
+
 using namespace std;
-int main()
-{
-    int i=100;
-    while(i<=999){
-        ///ÅÐ¶ÏiÊÇ·ñÊÇË®ÏÉ»¨£¬Èç¹ûÊÇÔò½«iÊä³ö
-        int c=i%10;
-        int b=i/10%10;
-        int a=i/100;
-        if(a*a*a+b*b*b+c*c*c==i)
-            cout<<i<<" ";
+
+int main() {
+    int i = 100;
+    while (i <= 999) {
+        ///ï¿½Ð¶ï¿½iï¿½Ç·ï¿½ï¿½ï¿½Ë®ï¿½É»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½
+        int c = i % 10;
+        int b = i / 10 % 10;
+        int a = i / 100;
+        if (a * a * a + b * b * b + c * c * c == i)
+            cout << i << " ";
         i++;
     }
 
