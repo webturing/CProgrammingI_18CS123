@@ -3,20 +3,22 @@ using namespace std;
 struct Point {
 	int x,y;
 };
-Point me={0,0}; 
+Point me = {0, 0};
 void Print(Point &a) {
 	cout<<a.x<<" "<<a.y<<endl;
 }
-void Input(Point& a) { 
+
+void Input(Point &a) {
 	cin>>a.x>>a.y;
 }
-double Distance(Point &a,Point &b){	
+
+double Distance(Point &a, Point &b) {
 	double dx=a.x-b.x;
 	double dy=a.y-b.y;
 	return sqrt(dx*dx+dy*dy);
 }
 bool cmpX(Point&a,Point&b){//<
-	return a.x<b.x;//°´ÕÕxµÄÉýÐò 
+	return a.x < b.x;//æŒ‰ç…§xçš„å‡åº
 }
 bool cmpD(Point&a,Point&b){//<
 	double d1=Distance(a,me);

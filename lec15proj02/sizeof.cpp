@@ -7,12 +7,12 @@ int main()
 	cout<<sizeof(double)<<endl;//8
 	int a[10];
 	cout<<sizeof(a)<<endl;//40
-	cout<<sizeof('0')<<endl;//1 char ×ÖÃæÁ¿literal 
+	cout << sizeof('0') << endl;//1 char å­—é¢é‡literal
 	cout<<sizeof('\\')<<endl;//1
 	cout<<'\\'<<endl;
-	cout<<sizeof(0)<<endl;//4 0  int ×ÖÃæÁ¿ 
+	cout << sizeof(0) << endl;//4 0  int å­—é¢é‡
 	cout<<sizeof(0LL)<<endl;//8
-	cout<<sizeof(0.0)<<endl;//8 double×ÖÃæÁ¿ 
-	cout<<sizeof(0.0f)<<endl;//4 float×ÖÃæÁ¿ 
+	cout << sizeof(0.0) << endl;//8 doubleå­—é¢é‡
+	cout << sizeof(0.0f) << endl;//4 floatå­—é¢é‡
 	return 0;
 }
