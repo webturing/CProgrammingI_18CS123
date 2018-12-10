@@ -5,9 +5,9 @@ struct Point {
 };
 struct Segment{
 	Point from,to;
-	
+
 };
 int main() {
-	
+
 	return 0;
 }

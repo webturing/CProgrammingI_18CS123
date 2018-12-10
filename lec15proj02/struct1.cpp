@@ -6,7 +6,7 @@ struct Person{
 };
 int main(){
 	Person p;
-	cin>>p.name>>p.age;//╫А╧╧лЕ╠Да©.╥жа© 
+	cin >> p.name >> p.age;//Г╩⌠Ф·└Д╫⌠Е▐≤И┤▐.Е┬├И┤▐
 	cout<<p.name<<" "<<p.age<<endl;
-	return 0;	
+	return 0;
 }
