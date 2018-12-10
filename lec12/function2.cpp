@@ -1,12 +1,17 @@
 #include<iostream>
-
-void grow(int &a) {
-    a++;
+#include<cmath>
+using namespace std;
+void grow(int &a){// pass by reference
+	a++;
 }
-
-int main() {
-    int a = 3;
-    grow(a);
-    std::cout << a << std::endl;
-    return 0;
+void Swap(int &a,int &b){
+	int t=a;a=b;b=t;
+}
+int main()
+{
+	int a=3;
+	grow(a);
+	cout<<a<<endl;
+	
+	return 0;
 }

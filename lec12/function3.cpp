@@ -1,22 +1,21 @@
 #include<iostream>
-#include<string>
-
+#include<cmath>
 using namespace std;
-
-
-int f(string s) {
-    return s.size();
+void Input(int a[],int n){
+	for(int i=0;i<n;i++)cin>>a[i];
 }
-
-int f(int x = 5, int y = 3) {
-    return x + y;
+void Output(int *a,int n){
+	for(int i=0;i<n;i++)cout<<a[i]<<" ";
+	cout<<endl;
 }
-
-int main() {
-
-    std::cout << f(3, 4) << std::endl;//7
-    std::cout << f(3) << std::endl;//6
-    std::cout << f("hello") << std::endl;
-    std::cout << f() << std::endl; //8
-    return 0;
+int main()
+{
+	int a[10]={0};
+	Input(a,10);
+	Output(a,10);
+	int b[20];
+	Input(b,20);
+	int c[5];
+	Input(c,5);
+	return 0;
 }
