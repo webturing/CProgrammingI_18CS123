@@ -1,11 +1,12 @@
 #include<bits/stdc++.h>
-using namespace std;//micro  Macro 
-//define³£Á¿ ºê /·ûºÅ 
-#define N 10   //const int  M=100;
-#define LL long long  //typedef long long LL; È¡´ú 
 
-int main(){
-	cout<<N*N<<endl;
-	
-	return 0;
+using namespace std;//micro  Macro
+//defineå¸¸é‡ å® /ç¬¦å·
+#define N 10   //const int  M=100;
+#define LL long long  //typedef long long LL; å–ä»£
+
+int main() {
+    cout << N * N << endl;
+
+    return 0;
 }
