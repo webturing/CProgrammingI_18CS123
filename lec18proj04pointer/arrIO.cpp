@@ -1,28 +1,30 @@
 #include<bits/stdc++.h>
+
 using namespace std;
+
 int main() {
-	int a[10];//³¤¶ÈÎª10 Ãû£¨ÆðÊ¼µØÖ·£©ÊÇaµÄÊý×é
+    int a[10];//ï¿½ï¿½ï¿½ï¿½Îª10 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //	for(int i=0; i<10; i++)
 //		scanf("%d",&a[i]);
 
-	int *p=a;
-	*p=1;
-	p++;
-	for(p=a; p<a+10; p++) {
-		cin>>*p;
-	}
+    int *p = a;
+    *p = 1;
+    p++;
+    for (p = a; p < a + 10; p++) {
+        cin >> *p;
+    }
 
-	for(int i=0; i<10; i++) {
-		cout<<a[i]<<" ";
-	}
-	cout<<endl;
-	for(p=a; p<a+10; p++) {
-		cout<<*p<<" ";
-	}
-	cout<<endl;
-	for(p=a+9;p>=a;p--){
-		
-	}
+    for (int i = 0; i < 10; i++) {
+        cout << a[i] << " ";
+    }
+    cout << endl;
+    for (p = a; p < a + 10; p++) {
+        cout << *p << " ";
+    }
+    cout << endl;
+    for (p = a + 9; p >= a; p--) {
 
-	return 0;
+    }
+
+    return 0;
 }

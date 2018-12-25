@@ -1,10 +1,12 @@
 #include<bits/stdc++.h>
+
 using namespace std;
+
 int main() {
-	char s[1000];
-	//cin>>s;//¸ñÊ½»¯¶ÁÈ¡£¬²»°üº¬Ê×Î²µÄ¿Õ¸ñ
-	//gets(s);//deprecated
-	fgets(s,20,stdin); //Ìæ´úÁËgetsº¯Êý ÐÐ¶ÁÈ¡  
-	cout<<s<<endl;	
-	return 0;
+    char s[1000];
+    //cin>>s;//ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î²ï¿½Ä¿Õ¸ï¿½
+    //gets(s);//deprecated
+    fgets(s, 20, stdin); //ï¿½ï¿½ï¿½ï¿½ï¿½getsï¿½ï¿½ï¿½ï¿½ ï¿½Ð¶ï¿½È¡
+    cout << s << endl;
+    return 0;
 }

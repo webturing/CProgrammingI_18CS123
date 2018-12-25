@@ -1,22 +1,24 @@
 #include<bits/stdc++.h>
+
 using namespace std;
-int main(){	
-	int a=4;
-	a++;
-	int* p;//Î´³õÊ¼»¯µÄÖ¸Õë
-	//cout<<*p<<endl;//RE
-	p=&a; //p¹ØÁªa  p´æ´¢ÁËaµÄµØÖ·
-	cout<<*p<<endl;//OK
-	cout<<p[0]<<endl;//all right
-	++*p;
-	cout<<a<<endl;
-	cout<<"p="<<p<<endl;
-	p++;//Ö¸ÕëÓÒÒÆÒ»¸öµ¥Î»£¨sizeof(int))
-	cout<<"p="<<p<<endl;
-	cout<<*p<<endl;//RE
-	cout<<p[0]<<endl;//RE
-	cout<<*(p-1)<<endl;//OK 
-	cout<<p[-1]<<endl;//OK
-		
-	return 0;
+
+int main() {
+    int a = 4;
+    a++;
+    int *p;//Î´ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½
+    //cout<<*p<<endl;//RE
+    p = &a; //pï¿½ï¿½ï¿½ï¿½a  pï¿½æ´¢ï¿½ï¿½aï¿½Äµï¿½Ö·
+    cout << *p << endl;//OK
+    cout << p[0] << endl;//all right
+    ++*p;
+    cout << a << endl;
+    cout << "p=" << p << endl;
+    p++;//Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½sizeof(int))
+    cout << "p=" << p << endl;
+    cout << *p << endl;//RE
+    cout << p[0] << endl;//RE
+    cout << *(p - 1) << endl;//OK
+    cout << p[-1] << endl;//OK
+
+    return 0;
 }

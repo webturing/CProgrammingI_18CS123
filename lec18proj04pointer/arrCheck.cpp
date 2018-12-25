@@ -1,19 +1,21 @@
 #include<bits/stdc++.h>
-using namespace std;
-int main() {
-	int a[10];//³¤¶ÈÎª10 Ãû£¨ÆğÊ¼µØÖ·£©ÊÇaµÄÊı×é
-	for(int *p=a; p<a+10; p++)
-		scanf("%d",p);			
-		int *p=a,*q=a+9;
-		while(p<q) {			
-			int t=*p;
-			*p=*q;
-			*q=t;
-			++p,--q;
-		}	
 
-	for(int *p=a; p<a+10; p++)
-		printf("%d ",*p);
-	printf("\n");
-	return 0;
+using namespace std;
+
+int main() {
+    int a[10];//ï¿½ï¿½ï¿½ï¿½Îª10 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½aï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    for (int *p = a; p < a + 10; p++)
+        scanf("%d", p);
+    int *p = a, *q = a + 9;
+    while (p < q) {
+        int t = *p;
+        *p = *q;
+        *q = t;
+        ++p, --q;
+    }
+
+    for (int *p = a; p < a + 10; p++)
+        printf("%d ", *p);
+    printf("\n");
+    return 0;
 }
